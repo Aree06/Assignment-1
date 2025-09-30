@@ -2,20 +2,22 @@
 /* CSS Document */
 
 /* General body styling */
-body {
-    background: black; /* color of background */
+body 
+{
+    background: navy; /* color of background */
     font-family: Verdana, Geneva, Arial, sans-serif; 
     padding: 0px;
     margin: 0px;
-    background-color: pink;
+    background-color: #C1E1F0;
     padding: 0px;
     margin: 0px; 
 }
 
+
 /* Apply margins to headings, paragraphs, and list items */
 body.contactme
 {
-    background: linear-gradient(45deg, coral 0%, pink 100%); /* gradient background */
+    background: linear-gradient(45deg, #8AD0E1 0%, #0F2EF5 100%); /* gradient background */
 }
 
 /* Apply margins to headings, paragraphs, and list items */
@@ -164,13 +166,21 @@ footer.footerabout
     background-color: white; /* white background */
 }
 
+/* Apply margins to headings, paragraphs, and list items */
+div.aboutme
+{
+    margin-top: 150px; 
+}
+
 /* Button styling */
+
 .button {
-  background-color: red;  /* blue background */
+  background-color: #0F2EF5;  /* blue background */
   color: white; /* white text */
   padding: 10px 20px;
   margin-top: 10px;
 }
+
 
 /* Different style for diffrent button */
 .button2
@@ -182,12 +192,14 @@ footer.footerabout
 }
 
 /* Hover effect on buttons */
-.button:hover {
-  background-color: red; /* darker blue on hover */
+.button:hover 
+{
+  background-color: navy; /* darker blue on hover */
 }
 
 /* Section box styling */
-section.box {
+section.box 
+{
     height: 220px;
     width: 400px;
     float: left; /* aligns boxes side by side */
@@ -200,8 +212,9 @@ section.box {
 }
 
 /* Hover effect on boxes */
-section.box:hover {
-    background-color: red; /* changes background to navy on hover */
+section.box:hover 
+{
+    background-color: navy; /* changes background to navy on hover */
     color: white; /* changes text color to white on hover */
     opacity: 1; /* makes box fully opaque on hover */
 }
