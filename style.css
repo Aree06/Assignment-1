@@ -136,6 +136,7 @@ footer
     text-align: center; /* centers the footer text */
     margin-top: 125px;
     background-color: white; /* white background */
+    height: 110px;
 }
 
 /* Footer */
@@ -155,7 +156,7 @@ footer.footerhome
 /* Footer */
 footer.footervid
 {
-    margin-top: 117px;
+    margin-top: 132px;
     background-color: white; /* white background */
 }
 
@@ -164,6 +165,18 @@ footer.footerabout
 {
     margin-top: 155px;
     background-color: white; /* white background */
+}
+
+ul 
+{
+  list-style: none;       /* removes bullets */
+  text-align: center; 
+}
+
+li 
+{
+  display: inline;        /* displays list items in a line */
+  margin-right: 10px;    /* space between each item */
 }
 
 /* Apply margins to headings, paragraphs, and list items */
