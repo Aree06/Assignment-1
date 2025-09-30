@@ -5,8 +5,8 @@
 body 
 {
     color: white; /* text color */
-    background-color: red; /* color of background */
-    font-family: Verdana, Geneva, Arial, sans-serif;  /* font style */
+    background-color: navy; /* color of background */
+    font-family: Verdana, Geneva, Arial, sans-serif; /* font style */
     padding: 0px;
     margin: 0px;
     font-size: 14px;

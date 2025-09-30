@@ -134,21 +134,21 @@ figure.mypic
 footer
 {
     text-align: center; /* centers the footer text */
-    margin-top: 110px;
+    margin-top: 125px;
     background-color: white; /* white background */
 }
 
 /* Footer */
 footer.foot
 {
-    margin-top: 215px;
+    margin-top: 225px;
     background-color: white; /* white background */
 }
 
 /* Footer */
 footer.footerhome
 {
-    margin-top: 285px;
+    margin-top: 340px;
     background-color: white; /* white background */
 }
 
@@ -162,7 +162,7 @@ footer.footervid
 /* Footer */
 footer.footerabout
 {
-    margin-top: 140px;
+    margin-top: 155px;
     background-color: white; /* white background */
 }
 

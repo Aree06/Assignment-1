@@ -4,9 +4,9 @@
 /* General body styling */
 body 
 {
-    background-color: red; /* color of background */
+    background-color: navy; /* color of background */
     color: white; /* text color */
-    font-family: Verdana, Geneva, Arial, sans-serif;  /* font style */
+    font-family: Verdana, Geneva, Arial, sans-serif; /* font style */
     padding: 0px;
     margin: 0px;
 }
@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6,p,li
 /* Wrapper container for project page*/
 #wrapperproject 
 {
-    background-color: red; /* if you want diff bg for tablet */
+    background-color: navy; /* if you want diff bg for tablet */
 }
 
 /* Wrapper container for contact me page*/

@@ -1,19 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
-/* General body styling */
 body 
 {
-    font-family: 'Times New Roman', Times, serif; /* font style */
+    background: navy; /* color of background */
+    font-family: 'Times New Roman', Times, serif; 
     font-size: large;
-    margin: 0;
-    padding: 0;
-}
-
-/* Header and Footer styling */
-header, footer 
-{
-    color: black; /* text color */
-    padding: 5px 0;
+    padding: 0px;
+    margin: 0px;
+    background-color: #C1E1F0;
+    padding: 0px;
+    margin: 0px; 
 }
 
 /* Navigation styling */
@@ -21,27 +17,6 @@ address
 {
     margin-left: 15px; /* left margin for address */
 }
-
-/* Wrapper container */
-#wrapper 
-{
-    width: 66%; /* 2/3 width */
-    min-height: 800px; /* changed from fixed height */
-    margin: 0 auto; /* centers the wrapper */
-}
-
-/* Article styling */
-article 
-{
-    min-height: 520px; /* changed from fixed height */
-}
-
-/* Apply margins to headings, paragraphs, and list items */
-h1,h2,h3,h4,h5,h6,p,li 
-{
-    margin-left: 15px; /* left margin */
-}
-
 
 /* Banner */
 #banner 
@@ -54,16 +29,4 @@ h1,h2,h3,h4,h5,h6,p,li
 #banner h1 
 {
     color: white;  /* white text */
-}
-
-/* Box styling */
-.box 
-{
-    height: 100px;
-    width: 100px;
-    float: left; /* aligns boxes side by side */
-    margin: 15px;
-    padding: 25px;
-    opacity: .5; /* makes box slightly transparent */
-    border-radius: 75px;
 }
