@@ -6,7 +6,8 @@ body
 {
     background-color: navy; /* color of background */
     color: white; /* text color */
-    font-family: Verdana, Geneva, Arial, sans-serif; /* font style */
+    font-family: 'Times New Roman', Times, serif; /* font style */
+    font-size: x-large;
     padding: 0px;
     margin: 0px;
 }
@@ -41,11 +42,17 @@ h1,h2,h3,h4,h5,h6,p,li
 }
 
 /* Footer */
-#footer 
-{
-    height: 80px; /* fixed height */
-    background-color: black; /* black background */
+#footer,
+footer.foot,
+footer.footerhome,
+footer.footervid,
+footer.footerabout {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 200px;
 }
+
 
 /* Banner */
 #banner 
