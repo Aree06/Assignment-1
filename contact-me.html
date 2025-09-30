@@ -1,0 +1,65 @@
+<!DOCTYPE html> <!--The HTML5 doctype declaration-->
+<html> <!--Content visible in the browser's window is inside the HTML element-->
+
+<head> <!--Head element content is not visible in a browser window-->
+    <meta charset="UTF-8"> <!--The UTF-8 character set provides the most support for all symbols and characters-->
+    <link href="style.css" rel="stylesheet" type="text/css"> <!-- The following line links to our style sheet file-->
+    <title>Contact Me</title> <!-- Title of the web page-->
+    <meta name="viewport" content="width=device-width"> <!-- Sets the viewport to make the website look good on all devices -->
+    <!-- Full size monitor-->
+    <link rel="stylesheet" type="text/css" href="fluid.css" media="only screen and (min-width: 960px)">
+    <!-- Tablet size-->
+    <link rel="stylesheet" type="text/css" href="tablet.css" media="only screen and (min-width:481px) and (max-width: 959px)">
+    <!-- Phone size-->
+    <link rel="stylesheet" type="text/css" href="phone.css" media="only screen and (max-width: 480px)">
+</head>
+
+<body class="contactme"> <!--Content visible in the browser's window is inside the HTML element-->
+    <div id="wrappercontact"> <!--All our content is enclosed in the wrapper ID style-->
+        <h1>Contact Me</h1>
+        <nav> <!--Navigation-->
+            <a class="button" href="home.html">Home</a> |
+            <a class="button" href="about-me.html">About Me</a> |
+            <a class="button" href="projects.html">Projects</a>
+        </nav>
+        <h3>Send me your questions, comments and related queries here!</h3> <!-- Third header for this web page-->
+        <form action="mailto:areeba.alam@ontariotechu.net?subject=Feedback on website" method="post" enctype="text/plain"> <!-- Form to send email to the specified address -->
+            <p>
+                <label for="Fname">Your First Name:</label> <!-- Label for the first name input field -->
+                <input type="text" name="Fname" size="40" placeholder="Enter your first Name" required> <!-- Input field for the first name -->
+            </p>
+            <p>
+                <label for="Lname">Your Last Name:</label> <!-- Label for the last name input field -->
+                <input type="text" name="Lname" size="40" placeholder="Enter your Last Name" required> <!-- Input field for the last name -->
+            </p>
+            <p>
+                <label for="email">Your Email:</label> <!-- Label for the email input field -->
+                <input type="email" name="email" size="40" placeholder="Enter your Email" required> <!-- Input field for the email -->
+            </p>
+            <p>
+                <label for="phone">Your Phone Number(no - or +):</label> <!-- Label for the phone number input field -->
+                <input type="tel" name="phone" size="40" placeholder="Enter your Phone Number" required> <!-- Input field for the phone number -->
+            </p>
+            <p>
+                <label for="feedback">Comments:</label> <!-- Label for the feedback textarea -->
+                <textarea name="feedback" cols="40" rows="8" placeholder="Questions, comments or query..."></textarea> <!-- Textarea for user comments -->
+            </p>
+            <p>
+                <input type="checkbox" name="maillist"> <!-- Checkbox for mailing list subscription -->
+                <label for="maillist"> Click here if your happy</label> <!-- Label for the mailing list checkbox -->
+                <br>
+                <input type="submit" value="Submit"> <!-- Button to submit the form -->
+            </p>
+        </form>
+        <footer class="foot"> <!-- Footer Section-->
+            <p>&copy; 2025 by Areeba Alam. All Rights Reserved</p> <!-- This information will be at the bottom of the page-->
+            <p> Contact: <a href="mailto:areeba.alam@ontariotechu.net"> areeba.alam@ontariotechu.net </a> </p> <!-- Email link for contact --></p>
+            <nav> <!--Navigation-->
+                <a href="about-me.html">About Me</a> | <!-- Clicking this button the user woll go to another page-->
+                <a href="projects.html">Projects</a> | <!-- Clicking this button the user woll go to another page-->
+                <a href="contact-me.html">Contact Me</a> <!-- Clicking this button the user woll go to another page-->
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>

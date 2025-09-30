@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* General body styling */
+body {
+    background: black; /* color of background */
+    font-family: Verdana, Geneva, Arial, sans-serif; 
+    padding: 0px;
+    margin: 0px;
+    background-color: pink;
+    padding: 0px;
+    margin: 0px; 
+}
+
+/* Apply margins to headings, paragraphs, and list items */
+body.contactme
+{
+    background: linear-gradient(45deg, coral 0%, pink 100%); /* gradient background */
+}
+
+/* Apply margins to headings, paragraphs, and list items */
+nav
+{
+    text-align: center; /* centers the navigation buttons */
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+/* Apply margins to headings, paragraphs, and list items */
+figure
+{
+    background-color: black; 
+    position: center; /* centers the image */
+    width: 215px; 
+    height: 355px;
+    border: 3px solid black; /* black border around image */
+    float: left;        /* puts image on the left */
+    margin-right: 15px; /* space between image and text */
+}
+
+/* Apply margins to headings, paragraphs, and list items */
+figcaption
+{
+    color: black; 
+    text-align: center; 
+    font-size: small; 
+    margin-top: -18px; 
+}
+
+/* Apply margins to headings, paragraphs, and list items */
+h1,h2,h3,a
+{
+    text-align: center; /* centers the headings and links */
+}
+
+/* Apply margins to headings, paragraphs, and list items */
+ul
+{
+    text-align: left; /* aligns the list to the left */
+}
+
+/* Apply margins to headings, paragraphs, and list items */
+p
+{
+    text-align: center; /* centers the paragraph text */
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Apply margins to headings, paragraphs, and list items */
+header
+{
+    text-align: center; /* centers the header text */
+}
+
+/* Apply margins to headings, paragraphs, and list items */
+h1.head
+{
+    text-align: left; /* aligns the heading to the left */
+}
+
+/* Apply margins to headings, paragraphs, and list items */
+h2.head2
+{
+    margin-top: 200px;
+}
+
+/* Apply margins to headings, paragraphs, and list items */
+p.para2
+{
+    margin-top:30px;
+}
+
+/* Wrapper container */
+#wrapper 
+{
+    width: 960px;
+    height: 800px;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+/* Wrapper container */
+#wrappercontact
+{
+    width: 960px;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white; /* white background */
+}
+
+/* Wrapper container */
+#wrapperproject 
+{
+    max-width: 960px;
+    width: 100%;
+    min-height: 100px;  /* at least full screen height */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white; /* white background */
+}
+
+/* adjusting picture*/
+figure.mypic
+{
+    margin-top: 115px;
+    float: left;
+}
+
+/* Footer */
+footer
+{
+    text-align: center; /* centers the footer text */
+    margin-top: 110px;
+    background-color: white; /* white background */
+}
+
+/* Footer */
+footer.foot
+{
+    margin-top: 215px;
+    background-color: white; /* white background */
+}
+
+/* Footer */
+footer.footerhome
+{
+    margin-top: 285px;
+    background-color: white; /* white background */
+}
+
+/* Footer */
+footer.footervid
+{
+    margin-top: 117px;
+    background-color: white; /* white background */
+}
+
+/* Footer */
+footer.footerabout
+{
+    margin-top: 140px;
+    background-color: white; /* white background */
+}
+
+/* Button styling */
+.button {
+  background-color: red;  /* blue background */
+  color: white; /* white text */
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+/* Different style for diffrent button */
+.button2
+{
+    background-color: black;  /* black background */
+    color: white; /* white text */
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+/* Hover effect on buttons */
+.button:hover {
+  background-color: red; /* darker blue on hover */
+}
+
+/* Section box styling */
+section.box {
+    height: 220px;
+    width: 400px;
+    float: left; /* aligns boxes side by side */
+    margin-top: 30px;
+    padding: 25px;
+    opacity: .5; /* makes box slightly transparent */
+    border-radius: 0px;
+    text-align: center; /* centers text inside */
+    height: auto;  
+}
+
+/* Hover effect on boxes */
+section.box:hover {
+    background-color: red; /* changes background to navy on hover */
+    color: white; /* changes text color to white on hover */
+    opacity: 1; /* makes box fully opaque on hover */
+}
+
+/* Video styling */
+video.vid
+{
+    margin-top: 150px; 
+}
+
+/* Clearfix to ensure proper layout after floating elements */
+.clear 
+{
+    clear: both; /* clears floats */
+}

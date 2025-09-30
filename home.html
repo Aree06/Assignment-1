@@ -1,0 +1,45 @@
+<!DOCTYPE html> <!--The HTML5 doctype declaration-->
+<html> <!--Content visible in the browser's window is inside the HTML element-->
+
+<head> <!--Head element content is not visible in a browser window-->
+    <meta charset="UTF-8"> <!--The UTF-8 character set provides the most support for all symbols and characters-->
+    <link href="style.css" rel="stylesheet" type="text/css"> <!-- The following line links to our style sheet file-->
+    <title>Home</title> <!-- Title of the web page-->
+    <meta name="viewport" content="width=device-width"> <!-- Sets the viewport to make the website look good on all devices -->
+    <!-- Full size monitor-->
+    <link rel="stylesheet" type="text/css" href="fluid.css" media="only screen and (min-width: 960px)">
+    <!-- Tablet size-->
+    <link rel="stylesheet" type="text/css" href="tablet.css" media="only screen and (min-width:481px) and (max-width: 959px)">
+    <!-- Phone size-->
+    <link rel="stylesheet" type="text/css" href="phone.css" media="only screen and (max-width: 480px)">
+</head>
+
+<body> <!--Content visible in the browser's window is inside the HTML element-->
+    <div id="wrapper"> <!--All our content is enclosed in the wrapper ID style-->
+        <header>
+            <h1>My Portfolio</h1> <!--Header title for the web page-->
+            <nav> <!--Navigation-->
+                <a class="button" href="about-me.html">About Me</a> | <!-- Clicking this button the user will go to another page-->
+                <a class="button" href="projects.html">Projects</a> | <!-- Clicking this button the user will go to another page-->
+                <a class="button" href="contact-me.html">Contact Me</a> <!-- Clicking this button the user will go to another page-->
+            </nav>
+        </header>
+        <main> <!-- Main content of the page -->
+                <section> <!-- Section element to divide content into groups -->
+                    <h2 class="head2">Welcome to My Portfolio</h2> <!-- Second header for this web page-->
+                    <p class="para2">Hi my name is Areeba Alam.</p> <!-- Text written on the page-->
+                    <p>This is the home page of my portfolio website. Here, you can find information about me, my projects, and how to contact me.</p> <!-- Text written on the page-->
+                </section>
+            </main>
+        <footer class="footerhome"> <!-- Footer Section-->
+            <p>&copy; 2025 by Areeba Alam. All Rights Reserved</p> <!-- This information will be at the bottom of the page-->
+            <p> Contact: <a href="mailto:areeba.alam@ontariotechu.net"> areeba.alam@ontariotechu.net </a> </p> <!-- Email link for contact --></p>
+            <nav> <!--Navigation-->
+                <a href="about-me.html">About Me</a> | <!-- Clicking this button the user woll go to another page-->
+                <a href="projects.html">Projects</a> | <!-- Clicking this button the user woll go to another page-->
+                <a href="contact-me.html">Contact Me</a> <!-- Clicking this button the user woll go to another page-->
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>

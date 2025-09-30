@@ -1,0 +1,61 @@
+<!DOCTYPE html> <!--The HTML5 doctype declaration-->
+<html> <!--Content visible in the browser's window is inside the HTML element-->
+
+<head> <!--Head element content is not visible in a browser window-->
+    <meta charset="UTF-8"> <!--The UTF-8 character set provides the most support for all symbols and characters-->
+    <link href="style.css" rel="stylesheet" type="text/css"> <!-- The following line links to our style sheet file-->
+    <title>About Me</title> <!-- Title of the web page-->
+    <meta name="viewport" content="width=device-width"> <!-- Sets the viewport to make the website look good on all devices -->
+    <!-- Full size monitor-->
+    <link rel="stylesheet" type="text/css" href="fluid.css" media="only screen and (min-width: 960px)"> 
+    <!-- Tablet size-->
+    <link rel="stylesheet" type="text/css" href="tablet.css" media="only screen and (min-width:481px) and (max-width: 959px)">
+    <!-- Phone size-->
+    <link rel="stylesheet" type="text/css" href="phone.css" media="only screen and (max-width: 480px)">
+</head>
+
+<body> <!--Content visible in the browser's window is inside the HTML element-->
+    <div id="wrapper"> <!--All our content is enclosed in the wrapper ID style-->
+        <h1>About Me</h1> <!--Header title for the web page-->
+        <nav> <!--Navigation-->
+            <a class="button" href="home.html">Home</a> |
+            <a class="button" href="projects.html">Projects</a> |
+            <a class="button" href="contact-me.html">Contact Me</a>
+        </nav>
+
+
+        <figure class="mypic"> <!-- Figure element to group media content with a caption -->
+            <img src="mypic.png" width="215" height="355" alt="My Picture"> <!-- Image element to display a picture -->
+            <figcaption class="text"><!-- Caption for the figure -->
+                <h4>This my picture</h4> <!-- Fourth header for the caption -->
+            </figcaption>
+        </figure>
+
+            <p>  Hi my name is Areeba Alam. I am a second year student at Ontario Tech University studying Networking & IT Security. 
+                I chose this program because I am passionate about technology and I enjoy learning how networks operate and how to protect them from security threats.
+                So far I enjoy working on labs involving routing, switching, and cybersecurity fundamentals.
+                Outside of school I like to watch movies, hang out with friends and family, and go swimming.
+                My goal for the future is to build a career in cybersecurity, specializing in network security and cyber defense.
+            </p> <!-- Paragraph about me-->
+            <p> <!-- Continuation of the about me paragraph-->
+                A fun fact about me is that I'm the oldest of three siblings. I have two younger brothers—one in high school and the other still in elementary school—which definitely keeps life interesting!
+                In my free time, I love watching movies. The last one I watched was Bad Guys 2, which I really enjoyed, but my all-time favorite will always be Divergent.
+                I'm also a big fan of swimming, especially at waterparks. During the summer, you'll often find me spending time with my family at different parks and enjoying the water rides.
+                When I'm not swimming or watching movies, I enjoy hanging out with my friends and family whenever I get the chance.
+            </p>
+            <a class="button" href="video.html">Click here to Watch My Video</a> <!-- Clicking this button the user woll go to another page-->
+
+        <div class="clear"></div> <!-- Clearfix to ensure proper layout after floating elements -->
+
+        <footer class="footerabout"> <!-- Footer Section-->
+            <p>&copy; 2025 by Areeba Alam. All Rights Reserved</p> <!-- This information will be at the bottom of the page-->
+            <p> Contact: <a href="mailto:areeba.alam@ontariotechu.net"> areeba.alam@ontariotechu.net </a> </p> <!-- Email link for contact --></p>
+            <nav> <!--Navigation-->
+                <a href="about-me.html">About Me</a> | <!-- Clicking this button the user woll go to another page-->
+                <a href="projects.html">Projects</a> | <!-- Clicking this button the user woll go to another page-->
+                <a href="contact-me.html">Contact Me</a> <!-- Clicking this button the user woll go to another page-->
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>

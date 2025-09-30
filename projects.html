@@ -1,0 +1,67 @@
+<!DOCTYPE html> <!--The HTML5 doctype declaration-->
+<html> <!--Content visible in the browser's window is inside the HTML element-->
+
+<head> <!--Head element content is not visible in a browser window-->
+    <meta charset="UTF-8"> <!--The UTF-8 character set provides the most support for all symbols and characters-->
+    <link href="style.css" rel="stylesheet" type="text/css"> <!-- The following line links to our style sheet file-->
+    <title>My Projects</title> <!-- Title of the web page-->
+    <meta name="viewport" content="width=device-width"> <!-- Sets the viewport to make the website look good on all devices -->
+    <!-- Full size monitor-->
+    <link rel="stylesheet" type="text/css" href="fluid.css" media="only screen and (min-width: 960px)">
+    <!-- Tablet size-->
+    <link rel="stylesheet" type="text/css" href="tablet.css" media="only screen and (min-width:481px) and (max-width: 959px)">
+    <!-- Phone size-->
+    <link rel="stylesheet" type="text/css" href="phone.css" media="only screen and (max-width: 480px)">
+</head>
+
+<body> <!--Content visible in the browser's window is inside the HTML element-->
+    <div id="wrapperproject"> <!--All our content is enclosed in the wrapper ID style-->
+        <h1>My Projects</h1> <!--Header title for the web page-->
+        <nav> <!--Navigation-->
+            <a class="button" href="home.html">Home</a> | <!-- Clicking this button the user woll go to another page-->
+            <a class="button" href="about-me.html">About Me</a> | <!-- Clicking this button the user woll go to another page-->
+            <a class="button" href="contact-me.html">Contact Me</a>   <!-- Clicking this button the user woll go to another page-->
+        </nav>
+
+        <article> <!-- Article element to group related content -->
+            <section class="box"> <!-- Section element to divide content into groups -->
+                <h3>Project 1: Library Management System</h3> <!-- Third header for each project -->
+                <p>This project was developed in Python. Its goal was to create a simple library system that allows users to
+                check out, return, and request books, movies, and articles.</p> <!-- Description of the project -->
+            </section>
+
+            <section class="box"> <!-- Section element to divide content into groups -->
+                <h3>Project 2: Leadership Report</h3> <!-- Third header for each project -->
+                <p>For this assignment, we worked in a group of four to research the topic Women's Leadership in Sports
+                Organizations. Together, we wrote an essay and created a presentation, applying the different theories
+                learned in class to support our analysis.</p> <!-- Description of the project -->
+            </section>
+
+            <section class="box"> <!-- Section element to divide content into groups -->
+                <h3>Project 3: Introduction to Networking I Project</h3> <!-- Third header for each project -->
+                <p>In this project, we were told to create addressing schemes for three different IP networks. 
+                    Using these schemes, we then designed and configured a network topology in Cisco Packet Tracer.</p> <!-- Description of the project -->
+            </section>
+
+            <section class="box"> <!-- Section element to divide content into groups -->
+                <h3>Project 4: Introduction to Networking II Case Study</h3> <!-- Third header for each project -->
+                <p>This project was done in Introduction to Networking II. It involved creating a network topology and
+                configuring it to enable communication between different parts of the network through pings. The project included setting up 
+                VLANs and BGP routing using Cisco Packet Tracer.</p> <!-- Description of the project -->
+            </section>
+        </article>
+
+        <div class="clear"></div> <!-- Clearfix to ensure proper layout after floating elements -->
+
+        <footer> <!-- Footer Section-->
+            <p>&copy; 2025 by Areeba Alam. All Rights Reserved</p> <!-- This information will be at the bottom of the page-->
+            <p> Contact: <a href="mailto:areeba.alam@ontariotechu.net"> areeba.alam@ontariotechu.net </a> </p> <!-- Email link for contact --></p>
+            <nav> <!--Navigation-->
+                <a href="about-me.html">About Me</a> | <!-- Clicking this button the user woll go to another page-->
+                <a href="projects.html">Projects</a> | <!-- Clicking this button the user woll go to another page-->
+                <a href="contact-me.html">Contact Me</a> <!-- Clicking this button the user woll go to another page-->
+            </nav> 
+        </footer>
+    </div>
+</body>
+</html>

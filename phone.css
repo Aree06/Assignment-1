@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* General body styling */
+body 
+{
+    color: white; /* text color */
+    background-color: red; /* color of background */
+    font-family: Verdana, Geneva, Arial, sans-serif; /* font style */
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+}
+
+/* Apply margins to headings, paragraphs, and list items */
+h1, h2, h3, h4, h5, h6, p, li 
+{
+    margin-left: 15px;
+    margin-top: 0px; 
+}
+
+/* Wrapper container */
+#wrapper 
+{
+    width: 100%; /* full width */
+    height: auto; /* changed from fixed height */
+    margin-left: auto; /*centers the wrapper*/
+    margin-right: auto; /* centers the wrapper */
+}
+
+/* Wrapper container for contact me page*/
+#wrappercontact 
+{
+    width: 100%; /* full width */
+    height: auto; /* changed from fixed height */
+    margin: 0 auto; /* centers the wrapper */
+}
+
+/* Footer */
+#footer 
+{
+    height: auto; /* changed from fixed height */
+    background-color: black; /* black background */
+}
+
+/* Banner */
+#banner 
+{
+    height: 60px;
+    background-color: black; /* black background */
+    color: black; /* text color */
+}
+
+/* Box styling */
+.box 
+{
+    width: 90%;
+    min-height: 120px;
+    float: none; /* makes boxes stack vertically */
+    background-color: black; /* black background */
+    margin: 15px auto;
+    opacity: 1;
+    text-align: center; /* centers text inside */
+}
+
+/* Button styling */
+.button 
+{
+    font-size: x-large; 
+    background-color: coral; 
+    color: #01E6DC;
+    display: block;
+    width: 90%;
+    padding: 8px;
+    margin: 10px auto; 
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px black; /* adds shadow */
+}
+
+/* Button hovering styling*/
+.button:hover 
+{
+    box-shadow: 5px 5px 3px black; /* adds shadow on hover */
+}
+
+/* Clear floats */
+.clear 
+{
+    clear: both; /* clears floats */
+}
