@@ -6,7 +6,7 @@ body
 {
     background-color: red; /* color of background */
     color: white; /* text color */
-    font-family: Verdana, Geneva, Arial, sans-serif; /* font style */
+    font-family: 'Times New Roman', Times, serif; /* font style */
     padding: 0px;
     margin: 0px;
 }
