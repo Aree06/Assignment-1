@@ -169,31 +169,29 @@ footer.footerabout
 
 ul 
 {
-  list-style: none;       /* removes bullets */
-  text-align: center; 
+  list-style: none; /* removes bullets */
+  text-align: center; /* centers the list */
 }
 
 li 
 {
-  display: inline;        /* displays list items in a line */
-  margin-right: 10px;    /* space between each item */
+  display: inline; /* displays list items in a line */
+  margin-right: 10px; /* space between each button */
 }
 
-/* Apply margins to headings, paragraphs, and list items */
+/* Apply margins to <p> */
 div.aboutme
 {
     margin-top: 150px; 
 }
 
 /* Button styling */
-
 .button {
   background-color: #0F2EF5;  /* blue background */
   color: white; /* white text */
-  padding: 10px 20px;
-  margin-top: 10px;
+  padding: 10px 20px; /* padding inside button */
+  margin-top: 10px; /* space above the button */
 }
-
 
 /* Different style for diffrent button */
 .button2
@@ -213,15 +211,14 @@ div.aboutme
 /* Section box styling */
 section.box 
 {
-    height: 220px;
-    width: 400px;
+    height: auto; /* fixed height */
+    width: 400px; /* fixed width */
     float: left; /* aligns boxes side by side */
-    margin-top: 30px;
-    padding: 25px;
+    margin-top: 30px; /* space above the box */
+    padding: 25px; /* space inside the box */
     opacity: .5; /* makes box slightly transparent */
-    border-radius: 0px;
+    border-radius: 0px; /* square corners */
     text-align: center; /* centers text inside */
-    height: auto;  
 }
 
 /* Hover effect on boxes */
