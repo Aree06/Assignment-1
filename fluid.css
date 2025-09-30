@@ -3,7 +3,8 @@
 /* General body styling */
 body 
 {
-    font-family: Verdana, Geneva, Arial, sans-serif; /* font style */
+    font-family: 'Times New Roman', Times, serif; /* font style */
+    font-size: large;
     margin: 0;
     padding: 0;
 }

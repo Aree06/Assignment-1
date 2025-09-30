@@ -5,14 +5,14 @@
 body 
 {
     background: navy; /* color of background */
-    font-family: 'Times New Roman', Times, serif; /* font style */
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: large;
     padding: 0px;
     margin: 0px;
     background-color: #C1E1F0;
     padding: 0px;
     margin: 0px; 
 }
-
 
 /* Apply margins to headings, paragraphs, and list items */
 body.contactme
