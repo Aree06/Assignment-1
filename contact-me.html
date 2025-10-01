@@ -21,47 +21,49 @@
             <ul>
                 <li><a class="button" href="home.html">Home Page</a></li>
                 <li><a class="button" href="about-me.html">About Me</a></li>
-                <li><a class="button" href="projects.html">Project's Page</a></li> 
+                <li><a class="button" href="projects.html">Projects Page</a></li> 
             </ul>
         </nav>
         <h3>Send me your questions, comments and related queries here!</h3> <!-- Third header for this web page-->
-        <form action="mailto:areeba.alam@ontariotechu.net?subject=Feedback on website" method="post" enctype="text/plain"> <!-- Form to send email to the specified address -->
+        
+        <form action="mailto:areeba.alam@ontariotechu.net?subject=Feedback on website" method="post" enctype="text/plain"> <!-- Form to send email -->
             <p>
-                <label for="Fname">Your First Name:</label> <!-- Label for the first name input field -->
-                <input type="text" name="Fname" size="40" placeholder="Enter your first Name" required> <!-- Input field for the first name -->
+                <label for="Fname">Your First Name:</label>
+                <input type="text" id="Fname" name="Fname" size="40" placeholder="Enter your first Name" required>
             </p>
             <p>
-                <label for="Lname">Your Last Name:</label> <!-- Label for the last name input field -->
-                <input type="text" name="Lname" size="40" placeholder="Enter your Last Name" required> <!-- Input field for the last name -->
+                <label for="Lname">Your Last Name:</label>
+                <input type="text" id="Lname" name="Lname" size="40" placeholder="Enter your Last Name" required>
             </p>
             <p>
-                <label for="email">Your Email:</label> <!-- Label for the email input field -->
-                <input type="email" name="email" size="40" placeholder="Enter your Email" required> <!-- Input field for the email -->
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" size="40" placeholder="Enter your Email" required>
             </p>
             <p>
-                <label for="phone">Your Phone Number(no - or +):</label> <!-- Label for the phone number input field -->
-                <input type="tel" name="phone" size="40" placeholder="Enter your Phone Number" required> <!-- Input field for the phone number -->
+                <label for="phone">Your Phone Number (no - or +):</label>
+                <input type="tel" id="phone" name="phone" size="40" placeholder="Enter your Phone Number" required>
             </p>
             <p>
-                <label for="feedback">Comments:</label> <!-- Label for the feedback textarea -->
-                <textarea name="feedback" cols="40" rows="8" placeholder="Any Questions, comments or query..."></textarea> <!-- Textarea for user comments -->
+                <label for="feedback">Comments:</label>
+                <textarea id="feedback" name="feedback" cols="40" rows="8" placeholder="Any Questions, comments or query..."></textarea>
             </p>
             <p>
-                <input type="checkbox" name="maillist"> <!-- Checkbox for mailing list subscription -->
-                <label for="maillist"> Click here if your happy</label> <!-- Label for the mailing list checkbox -->
+                <input type="checkbox" id="maillist" name="maillist">
+                <label for="maillist"> Click here if you’re happy</label>
                 <br>
-                <input type="submit" value="Submit"> <!-- Button to submit the form -->
-                <input type="reset" value="Reset"> <!-- Button to reset the form -->
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
             </p>
         </form>
-        <footer class="foot"> <!-- Footer Section-->
-            <p>&copy; 2025 by Areeba Alam. All Rights Reserved</p> <!-- This information will be at the bottom of the page-->
-            <p> Contact: <a href="mailto:areeba.alam@ontariotechu.net"> areeba.alam@ontariotechu.net </a> </p> <!-- Email link for contact --></p>
+        
+        <footer class="foot">
+            <p>&copy; 2025 by Areeba Alam. All Rights Reserved</p>
+            <p> Contact: <a href="mailto:areeba.alam@ontariotechu.net"> areeba.alam@ontariotechu.net </a> </p>
             <nav>
                 <ul>
                     <li><a class="button" href="home.html">Home Page</a></li>
                     <li><a class="button" href="about-me.html">About Me</a></li> 
-                    <li><a class="button" href="projects.html">Project's Page</a></li>
+                    <li><a class="button" href="projects.html">Projects Page</a></li>
                     <li><a class="button" href="contact-me.html">Contact Me</a></li> 
                 </ul>
             </nav>
