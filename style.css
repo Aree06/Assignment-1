@@ -219,6 +219,7 @@ section.box
     opacity: .5; /* makes box slightly transparent */
     border-radius: 0px; /* square corners */
     text-align: center; /* centers text inside */
+    margin-left: 20px;
 }
 
 /* Hover effect on boxes */
